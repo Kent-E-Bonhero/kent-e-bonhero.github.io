@@ -7,7 +7,7 @@ It exists to comply with Google Play / AdMob requirements.
 
 ## 📄 Documents
 
-- [Privacy Policy](https://kent-e-bonhero.github.io/index.html)  
+- [Privacy Policy](https://kent-e-bonhero.github.io/privacy.html)  
 - [Impressum](https://kent-e-bonhero.github.io/impressum.html)  
 - [app-ads.txt](https://kent-e-bonhero.github.io/app-ads.txt)  
 
