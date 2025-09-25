@@ -3,7 +3,7 @@
 This repository hosts the **Privacy Policy** and **app-ads.txt** file for my mobile game.
 
 ## Files
-- `index.html` → Privacy Policy
+- `privacy.html` → Privacy Policy
 - `app-ads.txt` → Authorized Digital Sellers for AdMob
 
 ## Purpose
