@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Impressum - Capybara Venture</title>
+  <meta name="description" content="Impressum nach § 5 TMG und Verantwortlichkeit nach § 55 Abs. 2 RStV." />
+  <style>
+    :root{
+      --bg:#ffffff; --fg:#0f172a; --muted:#475569; --card:#f8fafc; --accent:#16a34a;
+      --border:#e2e8f0; --link:#0ea5e9; --shadow:0 10px 30px rgba(2,6,23,.08)
+    }
+    @media (prefers-color-scheme: dark){
+      :root{
+        --bg:#0b1220; --fg:#e5e7eb; --muted:#9aa4b2; --card:#0f172a; --accent:#22c55e;
+        --border:#1f2937; --link:#38bdf8; --shadow:0 10px 30px rgba(0,0,0,.35)
+      }
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Inter,Arial,sans-serif;
+      background:linear-gradient(145deg,var(--bg),var(--card)); color:var(--fg);
+    }
+    .wrap{max-width:860px; margin:6rem auto; padding:0 1.25rem}
+    header{margin-bottom:2rem}
+    h1{
+      font-size:clamp(1.8rem,2.5vw,2.4rem); line-height:1.2; margin:0 0 .75rem;
+      letter-spacing:.2px
+    }
+    .tag{display:inline-block; padding:.35rem .6rem; font-size:.8rem; border:1px solid var(--border);
+      border-radius:.5rem; color:var(--muted); background:transparent}
+    .card{
+      background:var(--card); border:1px solid var(--border); border-radius:16px; padding:1.2rem 1.2rem;
+      box-shadow:var(--shadow); margin:1rem 0
+    }
+    h2{
+      font-size:1.05rem; font-weight:700; margin:.25rem 0 0.5rem; color:var(--muted); letter-spacing:.3px;
+      text-transform:uppercase
+    }
+    address{font-style:normal; line-height:1.7}
+    a{color:var(--link); text-decoration:none}
+    a:hover{ text-decoration:underline }
+    .vstack{display:grid; gap:.35rem}
+    footer{margin-top:2rem; color:var(--muted); font-size:.9rem}
+    .brand{display:flex; align-items:center; gap:.6rem; color:var(--muted)}
+    .dot{width:.6rem; height:.6rem; background:var(--accent); border-radius:50%}
+  </style>
+</head>
+<body>
+  <main class="wrap" role="main">
+    <header>
+      <div class="brand"><span class="dot" aria-hidden="true"></span><span>Capybara Venture</span></div>
+      <h1>Impressum</h1>
+      <span class="tag">Angaben gemäß § 5 TMG</span>
+    </header>
+
+    <section class="card" aria-labelledby="anbieter">
+      <h2 id="anbieter">Diensteanbieter</h2>
+      <div class="vstack" itemprop="author" itemscope itemtype="https://schema.org/Person">
+        <address class="vstack">
+          <strong itemprop="name">Luis Reich</strong> <span>aka. <span itemprop="alternateName">Kent. E. Bonhero</span></span><br />
+          <span itemprop="streetAddress">Im Neuenheimer Feld 660</span><br />
+          <span><span itemprop="postalCode">69120</span> <span itemprop="addressLocality">Heidelberg</span></span><br />
+          <span itemprop="addressCountry">Deutschland</span>
+        </address>
+      </div>
+    </section>
+
+    <section class="card" aria-labelledby="kontakt">
+      <h2 id="kontakt">Kontakt</h2>
+      <p>
+        E-Mail: <a href="mailto:thetaurusandtheking@gmail.com" itemprop="email">thetaurusandtheking@gmail.com</a>
+      </p>
+    </section>
+
+    <section class="card" aria-labelledby="verantw">
+      <h2 id="verantw">Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV</h2>
+      <p><strong>Kent. E. Bonhero</strong></p>
+    </section>
+
+    <footer>
+      Letzte Aktualisierung: 01.10.2025 · Diese Seite dient der Anbieterkennzeichnung.
+    </footer>
+  </main>
+</body>
+</html>
